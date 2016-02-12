@@ -2,7 +2,7 @@ var updateDate = '12 Feb, 2016';
 var currentStatus = {
   /* Life (cogito ergo sum) */
   life    : 'alive',
-  lifeImg : '<img width="24px" src="https:/twemoji.maxcdn.com/36x36/2705.png" />',
+  lifeImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/2705.png" />',
   /* Health */
   health    : 'healthy',
   healthVal : '100.0%',
