@@ -1,0 +1,78 @@
+html {
+  font-family: 'Noto Sans', 'Droid Sans', 'Ubuntu', 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: ivory;
+  color: #666;
+}
+
+a {
+  color: #666;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+span {
+  color: green;
+  font-weight: bold;
+}
+
+span#death {
+  color: black;
+}
+
+span#time {
+  color: red;
+}
+
+span#update-date {
+  color: #666;
+}
+
+table {
+  width: 60%;
+  font-size: 15px;
+  text-align: center;
+}
+
+#clockdiv {
+  color: green;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: ivory;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 5px;
+  display: inline-block;
+}
+
+.smalltext {
+  font-size: 12px;
+}
+
+#logo {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  border: 0;
+}
+
+#metainfo {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+}
