@@ -1,4 +1,4 @@
-var updateDate = '12 Feb, 2016';
+var updateDate = '13 Feb, 2016';
 var currentStatus = {
   /* Life (cogito ergo sum) */
   life    : 'alive',
@@ -13,7 +13,7 @@ var currentStatus = {
   /* Life goals */
   lifeGoals : 2,
   /* Short-term goals */
-  shortTermGoals: 4,
+  shortTermGoals: 5,
   /* Job (0 or 1) */
   job    : 0,
   jobImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/274e.png" />',
@@ -21,7 +21,7 @@ var currentStatus = {
   degree    : 1,
   degreeImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/1f393.png" />',
   /* Procrastination */
-  procrastination : '420 hours'
+  procrastination : '462 hours'
 };
 
 var deadline = '2031-12-31'; // am I too pessimistic?
