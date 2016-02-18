@@ -1,4 +1,4 @@
-var updateDate = '16 Feb, 2016';
+var updateDate = '18 Feb, 2016';
 var currentStatus = {
   /* Life (cogito ergo sum) */
   life    : 'alive',
@@ -8,8 +8,8 @@ var currentStatus = {
   healthVal : '100.0%',
   healthImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/2705.png" />',
   /* Emotion */
-  emotion    : 'dizzy',
-  emotionImg : '<img width="24px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAMAAABibqotAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAddEVYdFNvZnR3YXJlAEdQTCBHaG9zdHNjcmlwdCA5LjA1869djwAAAAlwSFlzAAAGJwAABicBTVTYxwAAAJ9QTFRFTGlx+7gX+7gX+7gX+7gX+7gX+7gX+7gX+7gX+7gX+7gX+7gX+7gXMTEx+7gXODUuLy8vLy8vkHAk+7gX51Yl////Ly8v8YQePDs576wZZmZm7u7uyMjIp6en9pwbiGwnkJCQ1dXVurq6g4KAWVlZS0tLrIIgUUcv6WAj7XEg/uu+/MlPdHR0x5Qc//ru/d2QcFso/L8uk35Lxqpn9tF4x4fP1wAAABN0Uk5TAN2ZZigR7oi7RFXMd86qS4wVwTyAdLAAAAPKSURBVFjD5ZjZYqowEIarCIh4etoTlrCKbK5Vu7z/s53JBDDsanvXuSoxfMz8s6Tw9PRLTdZUdTpnNlXVhfwYY6HqpG6T6XJ2J0Wbkm7Tpdvc+vvyxwLbrJweEFGm2jgFIdxWpNf04fBeX+B2N/DXfpwwn5x+kjoQ3Ss44/omN88dBimLIUxkXi0ZDI2QZQ8HMAG7f+37awSllvU2BJp2YkCbBG6OM6axy0h+zaG3FbPcGQG9UivzTDMqkkXhbzOzaHGHs6rSuMkFtTvdCRCTBZ6f8hCPlsX3rygA0mN0dBukWYc6FJJkoVPmGiIzkcrCcC6MXqgfu2Jp6a0CRHUgRZB33/N55lz0x9kUCSjMpwJIbXPgTnCe3Z1S5JkU9bnUMeA1hH0pQY16/Mc283AoJoyFgM/Ni6rygsR1j0EJyjsdkpxLhIkGf2IAJR4PKycORSauMstYRXi0qvWJiJkphLDNsA8Lh1HMADIDqbKsmPtmZS6mK+C/lQ5JAmcO13ue6NQrVICtbO/GyrgDlOG8Y/Goq0LPwtBi11+8gq0sxuZIeHodrk5caR1h7NfSIsqVM8GFvVmUM3VdFINJ8MY5sF5my8VAo2vvVbUo8evDqYimsA/sqooD0XiRh64luK/klANEVogA8hOeluSTFJyAB0yDOEWtsCj8dualqlve91gdPgyO8zspOUkRDbMUOZRNp2qAz2vqFKTzHuz8VS2Azlk5HgHDU8W0Oldb5kKy+m3DWwQyGEWYSZ8X+6HJeR7m5MUsEsctRHoiDc5sGMP6AlUpDXqQ5f0snLLIUUc4zCGuC8dQFOwk7mip3G1spFJsXCggiu6cDqQRV0dYYWiHodMAYZWnFu/TGoZzmmE59tZA29pXVE6vVU4Dc/9eP1rbYTm2Idjuur7aFJjjen9oHtGtsEpfStuGwiPy1cfH59ehrQPrr0UNY7TMJuOmNeTZGcZDoHIQ9nvDLBzDYLpGMeOgZY0T9mGErHXbrNbr217OiENKbWbY/ZgRh/C4WN7gjmE4QxxV7IpwCDOce03k2IOc3Q9xjJ/ihLfq8w3ORBbby3hcaFU8Au3HOUwhbbjZb+NAZFr/DLujVSWx33HAQ+WGdsu17UingkJK13q4vW+WAaf77dGpubR1xgdr36ksqjU2yPTGYO0+gXbhLXP+SdZ7f7ft3c4epZT/98pz8h0TXi8l5XHMXHxxkqcPUibNF/mZOnnAl8435sXzXeHpA186NFW/Tdvn0c8lsracDsGUuSrd/sllpi1UFT/7cDn5B6Clpv2yz1//ASGgNNx3+hwYAAAAAElFTkSuQmCC" />',
+  emotion    : 'nerdy',
+  emotionImg : '<img width="24px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAMAAABibqotAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAddEVYdFNvZnR3YXJlAEdQTCBHaG9zdHNjcmlwdCA5LjA1869djwAAAAlwSFlzAAAGJwAABicBTVTYxwAAAGxQTFRFTGlx/MIb/MIb/MIb/MIb/MIb/MIb9b0b/MIb/MIb/MIb/MIb/MIbLy8v7WwwPj4+////inEnxpwgZlYqr4sjPTkunH4odGIt4q8e1KYfSkQx+a8gWE0t9Zgl8ocp73Uv+tjI97qP/vHq+9Ke9IlEEAAAAAx0Uk5TABEzRLtpIviK0qpVdMFS4gAAAzhJREFUWMPtmNt2qyAQhpN4AJXUKqB4SpP2/d+xgJxUtMbstXvT/yIrgeFjmGEQczr96bd1DiBMwzBBSRimEGbnI4wIJmiuBEbxU5QLRGuCwW5KFKItJdEuSrxNkaQdPkG0R/CHmMcJ2qfkshlfgPYKbICC/Riu1XBn6DlFLy9KyZu2c/IsBgHf7n4ew7N2PrhvFvtosXHAIc4iROExDEpmpYmOCr4cZJWz88wdVlYFxvgq1eK6IM1sSEOKGvejQY9xUZVs5lCC6qtPPaeVQoLgtwDALQhmOigW6q9r6mU/Nb9LpzxSVI6rqUq9BsYXQeeMumqY3h9l1SqOSdkZjRyqbUCd522FAGkdCC0AIn2e1zpsoB056GKj3IimQvvS5kIVN+2dQCBUyfaWKbtCcaCTdEItp8hH8YmJ9ERNovh5rewq3kWEY6okZCOxHIURDnHTK5bJLLQ7XMqhUg+5OHvZNKJSm/N5sfRcZLNFqNYdKhtmaqiytcph0p0xEo3lEBOf0ikyMOMwyxHjxaBGLqya+WM4SNTGRWVxnFmoN/Fp5XpEk9gVRLW3yg4bTuCUOs+K2j/KvgfEbIbxGzbx1yOcooeWTnRC5awNoHZvcs8oayRIp5Wze/U1dI6MSq9Bbvq6YjrdxiGMQMULF9mJda/YQaainFFmu/bIGTXtJjKHSAc6noyzlkx4Q+0RJKsJM/O7utrEiEAH1pLKkhdDwVjs1D3JmrE8iAgYI8I9ypxHK5xbOkfN9EAEs0OJEveUdp9bDZ6cE4uzmLgTte4sqaoKkyh1eNGaeB9opDb9k/bQ8+DixzHbeEAw3g+WjzHvA7Abus4L6XiPt+Pkc//jTejjNjy+9Kju6zHcVLuPdPK0DW9a93ehT/l5N63Df+aoda1xdq8LdRr0GAny87GF8XMc0P3z/f7x9f5538ascHiMzNqmGlbsV28s3c1DunWr16mNG9Rwm0KGzdvU5hWqG26jhu6ne+vRG+biXeOS/BMMv7ekL2FCe0PMXrhnTt9W4LEogeWLYfS8T0nkfb2M4TOoBG68EcbRLhZId/whEGcwXYclIcye+VMhDjIIYWjFf2VB/Pevz+/qG81YuHbTU3+iAAAAAElFTkSuQmCC" />',
   /* Life goals */
   lifeGoals : 2,
   /* Short-term goals */
@@ -21,7 +21,7 @@ var currentStatus = {
   degree    : 1,
   degreeImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/1f393.png" />',
   /* Procrastination */
-  procrastination : '462 hours'
+  procrastination : '504 hours'
 };
 
 var deadline = '2031-12-31'; // am I too pessimistic?
