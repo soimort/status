@@ -1,4 +1,4 @@
-var updateDate = '21 Feb, 2016';
+var updateDate = '28 Feb, 2016';
 var currentStatus = {
   /* Life (cogito ergo sum) */
   life    : 'alive',
@@ -8,8 +8,8 @@ var currentStatus = {
   healthVal : '100.0%',
   healthImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/2705.png" />',
   /* Emotion */
-  emotion    : 'nothing',
-  emotionImg : '<img width="24px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHBAMAAACnnkcsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAddEVYdFNvZnR3YXJlAEdQTCBHaG9zdHNjcmlwdCA5LjA1869djwAAAAlwSFlzAAAGJwAABicBTVTYxwAAADBQTFRFTGlx/MIb/MIb/MIb/MIb/MIb/MIb/MIb/MIb/MIb/MIbPj4+cmE12KkhkngvupQnw6Is/wAAAAp0Uk5TAIgZP+ZombvMqqKi7PwAAAGaSURBVEjH3da7SgNBFAbgyWowWLmiRKwCKoiVFxbEygsoWAUVhVRGsNkqtZVYphLsrBKNYT0QH8D1EVbt8wjqE4iFmZ2dvc6cs4KN/lWGfOzMntm5MPY/MmSZ5bq5UkHI3BSIOKdadgRRnD0lMSYgns64CiXNIAq1mjbQWUybAmTTTY3esBUILpJoXmXASTzKaCoRbMVRSW2Sj7I1CBqRKeoMdCO0pkUQ1aqpR5t0bwBtiWYRFPZnY+gyqCRm4EY/t5kioEMCEEWv4WiMqhLPOj1ugDt63MHISwTqcLRAIL/mNQrx17um0PkA7VKoFVbgw/Pz5je+RONV/HUrP6YHV+SJN3pBw+3LQhVIdM/YiP+jJzrwnuN9vwTrirFhIMPYKI0q2HKKSp4DVelZ4fMy/UuogS86ic5+jIKZ9by+HoWT5j4m10sO1Ep29y7RJ4J0A89R8WNquxBfQZE0bWqfE73l3AvYAb4VVJFjTOYEPexErnRntO60XlLuCBupU9g4zLDtfcW9wCrH3E59WXfHmLFMnkn0svKH8g3jfn4b3iGm5wAAAABJRU5ErkJggg==" />',
+  emotion    : 'tired',
+  emotionImg : '<img width="24px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAMAAABibqotAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAddEVYdFNvZnR3YXJlAEdQTCBHaG9zdHNjcmlwdCA5LjA1869djwAAAAlwSFlzAAAGJwAABicBTVTYxwAAAF1QTFRFTGlx/MIb/MIb/MIb/MIb/MIb/MIb/MIb/MIb+L8b/MIb/MIb7WwwPj4+////8YEq+asgbV41l3wu9JIm26shqYgqS0c8hnAw9p0k/uCLxZwlV1A5/dBQ/u/C//vwwhNYSgAAAAt0Uk5TAJkz3UhmF72E9KoSfE2ZAAACQElEQVRYw+2Y17bCIBBFTUIokkp6vPr/n3kJpFBSBH30PLiWMO7MMANhvN1++klXGGOMEIpoxD8DjEMPBsCI2kI4dnIEE3okErzrVozouaJ3nAqvKCI+cEGBAX1Pd3jqTETfFTlZJkCogw5XKaZuwt/BHIAE5u81fBhaSAQmezp5ZOUfRhLjyCFm+vE0+syy7OW2RMjI+DQ2ZJMc11qPTNTfK3P3R49M5kq48/wk+dEWljNHcUhWoOQMH1Sj3J0yrj/q7RCYB55e7mxVvZ45w+CDWWoIEvqhoBaWv7AelrfuSracs9Swev0iDgzDgJXdeEmpuzZNW6JuMuMYbFKu9hxFWCpUqwuEjSdJk/TRHKaxaYVF22iZR3suCztlAdT50n4O4Zwd03FBMdsnNlPMCoIH2ShN3+V4uUeZFvqwCsdOkEpixsSTwFjJ1dXKFsM2oOm4EX/qQ7q0WddzuIs6paItTpcaYsbabCrXmcDi1CYmbfTa4j+XSh+1knjruiN8Lzs2q2Rq5XRsrPePDotTMzZ6HEGIfkVf40Rf4uwNFly71kWV53mSJHle9RecvpoME2lcqbh+mVjmi2NOn1jiNK48t2eS/midi8RNysGh1XPlyKm2faG9vXpHTqEc0Nr5nDthcu0F5gva8hXM1xail8iad56qvljUb0mbyqfYubjAu1WHDltUbTSA7zazOqgw8Lh2BHt9GIzvbreDGDq2t3sNL4DXrTJGJ30u78CBS+MNePceoE28gccA/P7V+EnVP2mNmDlr7HU9AAAAAElFTkSuQmCC" />',
   /* Life goals */
   lifeGoals : 2,
   /* Short-term goals */
@@ -21,7 +21,7 @@ var currentStatus = {
   degree    : 1,
   degreeImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/1f393.png" />',
   /* Procrastination */
-  procrastination : '504 hours'
+  procrastination : '546 hours'
 };
 
 var deadline = '2031-12-31'; // am I too pessimistic?
