@@ -1,4 +1,4 @@
-var updateDate = '28 Feb, 2016';
+var updateDate = '3 Mar, 2016';
 var currentStatus = {
   /* Life (cogito ergo sum) */
   life    : 'alive',
@@ -21,7 +21,7 @@ var currentStatus = {
   degree    : 1,
   degreeImg : '<img width="24px" src="https://twemoji.maxcdn.com/36x36/1f393.png" />',
   /* Procrastination */
-  procrastination : '546 hours'
+  procrastination : '588 hours'
 };
 
 var deadline = '2031-12-31'; // am I too pessimistic?
